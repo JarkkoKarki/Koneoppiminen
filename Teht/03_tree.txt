@@ -1,0 +1,19 @@
+|--- sslfinal_state <= 0.50
+|   |--- prefix_suffix <= 0.00
+|   |   |--- url_of_anchor <= -0.50
+|   |   |   |--- class: 0.0
+|   |   |--- url_of_anchor >  -0.50
+|   |   |   |--- class: 0.0
+|   |--- prefix_suffix >  0.00
+|   |   |--- class: 1.0
+|--- sslfinal_state >  0.50
+|   |--- url_of_anchor <= -0.50
+|   |   |--- prefix_suffix <= 0.00
+|   |   |   |--- class: 0.0
+|   |   |--- prefix_suffix >  0.00
+|   |   |   |--- class: 1.0
+|   |--- url_of_anchor >  -0.50
+|   |   |--- links_in_tags <= -0.50
+|   |   |   |--- class: 1.0
+|   |   |--- links_in_tags >  -0.50
+|   |   |   |--- class: 1.0
